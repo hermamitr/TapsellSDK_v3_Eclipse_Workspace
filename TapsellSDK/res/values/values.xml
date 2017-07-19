@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="float" name="aspect_ratio"/>
+    <attr format="enum" localization="suggested" name="aspect_style">
+        <enum name="fixed_width" value="0"/>
+        <enum name="fixed_height" value="1"/>
+    </attr>
+    <declare-styleable name="RatioFrameLayout"><attr name="aspect_style"/><attr name="aspect_ratio"/></declare-styleable>
+    <declare-styleable name="RatioImageView"><attr name="aspect_style"/><attr name="aspect_ratio"/></declare-styleable>
+    <declare-styleable name="RatioRelativeLayout"><attr name="aspect_style"/><attr name="aspect_ratio"/></declare-styleable>
+    <declare-styleable name="TapsellNativeVideoPlayer"><attr format="string" name="tnvp_source"/><attr format="boolean" name="tnvp_autoPlay"/><attr format="boolean" name="tnvp_autoFullscreen"/><attr format="boolean" name="tnvp_loop"/></declare-styleable>
+    <item name="tapsell_nativead_banner" type="id"/>
+    <item name="tapsell_nativead_cta" type="id"/>
+    <item name="tapsell_nativead_description" type="id"/>
+    <item name="tapsell_nativead_logo" type="id"/>
+    <item name="tapsell_nativead_rating" type="id"/>
+    <item name="tapsell_nativead_sponsored" type="id"/>
+    <item name="tapsell_nativead_title" type="id"/>
+    <item name="tapsell_nativead_video" type="id"/>
+</resources>
