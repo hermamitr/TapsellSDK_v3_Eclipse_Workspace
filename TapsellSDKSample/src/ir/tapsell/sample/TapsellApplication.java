@@ -1,4 +1,4 @@
-package ir.tapsell.samplev3;
+package ir.tapsell.sample;
 
 import android.app.Application;
 

@@ -1,4 +1,4 @@
-package ir.tapsell.samplev3;
+package ir.tapsell.sample;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-
+import ir.tapsell.samplev3.R;
 import ir.tapsell.sdk.Tapsell;
 import ir.tapsell.sdk.TapsellAd;
 import ir.tapsell.sdk.TapsellAdRequestListener;
