@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TapsellConfiguration config = new TapsellConfiguration();
+        TapsellConfiguration config = new TapsellConfiguration(this);
         config.setDebugMode(true);
         config.setAutoHandlePermissions(true);
 
